@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 
 int main(){
     float side1, side2, side3;
