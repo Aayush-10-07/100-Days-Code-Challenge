@@ -1,13 +1,20 @@
 #include<stdio.h>
 
 int main(){
-    float celsius, fahrenheit;
-    printf("enter temperature in celsius: ");
-    scanf("%f", &celsius);
+    int a, b, c;
+    printf("enter 1st number: ");
+    scanf("%d", &a);
 
-    fahrenheit = (celsius * 9.0 / 5.0) + 32.0;
+    printf("enter 2nd number: ");
+    scanf("%d", &b);
 
-    printf("%f celsius= %f fahrenheit ", celsius, fahrenheit);
+    c = a;
+    a = b;
+    b = c;
+
+    printf("After swapping\n");
+    printf("first number= %d\n", a);
+    printf("second number= %d\n", b);
 
     return 0;
 }
